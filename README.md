@@ -6,9 +6,9 @@ Kotlin Koans
 Kotlin Koans Workshop is a series of exercises to get you familiar with the Kotlin Syntax. 
 Each exercise is created as a failing unit test and your job is to make it pass. 
 
-#### How to build and run tests
+## How to build and run tests
 
-##### Working with the project using Intellij IDEA:
+### Working with the project using Intellij IDEA:
 
 1. Import the project as Gradle project.
 2. To build the project and run the tests use `test` task on the Gradle tool window 
@@ -19,7 +19,7 @@ how to run Gradle task from the Gradle toolbar in IntelliJ IDEA.
 
 Note that this project isn't intended to be used in Android Studio. If you want to solve koans in Android Studio, check the course in Android Studio with EduTools plugin installed https://github.com/kotlin/kotlin-koans#other-ways-to-solve-koans.
 
-##### Working with the commandline
+### Working with the commandline
 
 You can also build the project and run all tests in the terminal:
 ```
@@ -34,13 +34,13 @@ $ ./gradlew test --tests ii_*22*      # run test number 22 in part 2
 ```
 
 
-#### How to check yourself
+## How to check yourself
 
 The repository has two branches, `master` which contains the exercises for you to do and `resolutions` which contains the resolved exercises. 
 Make sure you don’t cheat!
 
 
-#### How the tasks are organized
+## How the tasks are organized
  
 You have 42 tasks to do. 
 Each task lives in its own function: from `task0` to `task41`.
@@ -75,7 +75,7 @@ Open the file with your solution, call the `Compare with branch...` action and c
 You can find [here](https://www.jetbrains.com/help/idea/navigating-to-action.html) how to call an action.
 
 
-#### Other ways to solve Koans
+## Other ways to solve Koans
 
 You can solve the similar tasks using Educational Plugin or in the browser:
 
