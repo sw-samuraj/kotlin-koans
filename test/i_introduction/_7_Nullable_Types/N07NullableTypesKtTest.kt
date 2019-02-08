@@ -14,10 +14,10 @@ class N07NullableTypesKtTest {
         sendMessageToClient(client, message, object : Mailer {
             override fun sendMessage(actualEmail: String, actualMessage: String) {
                 invoked = true
-                assertEquals("The message is not as expected:",
-                        message, actualMessage)
-                assertEquals("The email is not as expected:",
-                        email, actualEmail)
+                assertEquals(message, actualMessage,
+                        "The message is not as expected:")
+                assertEquals(email, actualEmail,
+                        "The email is not as expected:")
             }
         })
         assertEquals(shouldBeInvoked, invoked,

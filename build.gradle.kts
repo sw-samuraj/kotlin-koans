@@ -11,7 +11,7 @@ sourceSets["test"].java.srcDir("test")
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("com.google.guava:guava:16.0")
+    implementation("com.google.guava:guava:27.0.1-jre")
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.0")
 }
 

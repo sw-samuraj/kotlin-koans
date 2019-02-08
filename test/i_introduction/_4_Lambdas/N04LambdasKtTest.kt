@@ -10,7 +10,8 @@ class N04LambdasKtTest {
         assertTrue(task4(listOf(1, 2, 3)))
     }
 
-    @Test fun notContains() {
+    @Test
+    fun notContains() {
         assertFalse(task4(listOf(1, 3, 5)))
     }
 }
